@@ -7,8 +7,6 @@ Just clone this repo or download the zip, extaract and you are ready to go.
 
 Entry point is `index.html`
 
-Images are in img folder and css in css folder.
+Images are in img folder and css in css folder. It is not responsive for mobile devices yet.
 
-It is not responsive for mobile devices yet!
-
-Feel free for pull request and raising issues.
+Feel free for any pull requests and raising issues.
