@@ -1,0 +1,62 @@
+------------------------ 01 TYPOGRAPHY SYSTEM ------------------------
+
+- Font Family: "Rubik", sans-serif;
+
+- Default font color: #555;
+
+- Base Font-Size: 62.5% of users font-size setting
+  --> By default most browser have font size of 16px which means our base font-size = 0.625 * 16px =  10px
+  --> If user has setting of font size of like 24px = 0.625  * 24px = 15px
+  --> If user has setting of font size of like 12px = 0.625 * 7px = 7.5px
+  --> Adapts with user zoom-in and zoom-out
+
+- Font Sizes (rem based on user font-size setting) [by default 1rem = 10px] : 
+1 / 1.2 / 1.4 / 1.6 / 1.8 / 2 / 2.4 / 3 / 3.6 / 4.4 / 5.2 / 6.2 / 7.4 / 8.6 / 9.6
+
+- Font Weights: 400 (default), 500 (medium), 600 (semi-bold), 700 (bold)
+
+- Line Heights: 1 (default), 1.05 (heading primary), 1.2 (heading secondary), 1.6 (normal text), 1.8 (large)
+
+- Letter Spacing: -0.5px (heading prumary / secondary / tertiary), 0.75 (sub-heading / featured in heading)
+
+----------------------- 02 COLOR ----------------------------------------
+
+- Primary: #e67e22
+- Tints: #fdf2e9, #fae5d3
+- Shades: #cf711f, #eb984e, #45260a
+- Accents: NA
+- Greys: #555, #333, #888, #6f6f6f (lightest gray allowed on #fdf2e9), #aaa (placeholder), #767676 (lightest gray allowed on #fff)
+
+- additional colors:
+  --> Tags: #51cf66, #94d82d, #ffd43b (also used as wrapper in best value)
+
+--------------------------------- 03 SHADOWS ----------------------------
+
+- Box Shadow 1: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075),
+    0 -2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+
+- Box Shadow 1: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15),
+    0 -2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+
+- sticky navigation: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.05);
+
+- Form Elements: 0 1px 2px rgba(0, 0, 0, 0.1);
+
+- Inner Border: inset 0 0 0 3px #fff;
+
+- Outset Border (mainly for focus state):  0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+- Outset Border (mainly for form elements): 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+
+------------------------------ 04 BORDER RADIUS -------------------------
+- Dfault: 9px
+- Medium: 11px
+
+------------------------------ 05 WHITE SPACE ---------------------------
+
+- Spacing System (rem based on user font-size setting) [by default 1rem = 10px] : 
+0.2 / 0.4 / 0.8 / 1.2 / 1.6 / 2.4 / 3.2 / 4.8 / 6.2 / 8 / 9.6 / 12.8
+
+---------------------- 06 TRANSITION ANIMATION SPEED ---------------------
+
+- faster speed (usually small elements like btn, link): 0.3s
+- slower speed (usually card, img): 0.4s
