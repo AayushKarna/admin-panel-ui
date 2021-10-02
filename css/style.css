@@ -99,7 +99,6 @@ body {
 
 .new-project {
   margin-top: auto;
-  margin-bottom: 3.2rem;
 }
 
 .btn {
@@ -200,7 +199,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 2.4rem;
+  margin-bottom: 1.8rem;
 }
 
 .profile-nav {
@@ -321,7 +320,7 @@ body {
   display: grid;
   /* grid-template-columns: repeat(4, 1fr); */
   grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
-  gap: 2.4rem;
+  gap: 1.8rem;
 
   padding-left: 0;
   padding-right: 0;
