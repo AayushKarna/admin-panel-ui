@@ -9,27 +9,6 @@ btnNavEl.forEach(el =>
   })
 );
 
-// sticky navigation
-// const obs = new IntersectionObserver(
-//   entries => {
-//     const ent = entries[0];
-
-//     if (!ent.isIntersecting) {
-//       bodyEl.classList.add('sticky');
-//     }
-
-//     if (ent.isIntersecting) {
-//       bodyEl.classList.remove('sticky');
-//     }
-//   },
-//   {
-//     root: null, // in the view port
-//     threshold: 0,
-//     rootMargin: '-8px'
-//   }
-// );
-// obs.observe(porfileContent);
-
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
   var flex = document.createElement('div');
