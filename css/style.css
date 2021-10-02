@@ -507,6 +507,10 @@ body {
     overflow-x: hidden;
   }
 
+  .new-project {
+    margin-top: 1.4rem;
+  }
+
   .nav-open .sidebar {
     opacity: 1;
     pointer-events: auto;
@@ -527,5 +531,10 @@ body {
 @media (max-width: 34em) {
   .form-validate {
     grid-template-columns: 1fr;
+  }
+
+  .new-project {
+    margin-top: 0;
+    margin-bottom: 0.8rem;
   }
 }
